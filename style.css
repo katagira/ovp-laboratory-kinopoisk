@@ -25,7 +25,7 @@ html{
 }
 
 header{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(img/bg-image.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://png.pngtree.com/background/20230606/original/pngtree-old-movie-posters-on-the-wall-picture-image_2882816.jpg) no-repeat center/cover;
     text-align: center;
     padding: 2rem;
     display: flex;
@@ -164,12 +164,20 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#565656", en
 
 .box-item2 {
     margin: 2rem;
-    width: 30rem;
+    width: 40rem;
     text-align: center;
-    background: var(--black);
+   
     border-radius: 2rem;
     cursor: pointer;
     transition: 0.5s;
+}
+.box-item2:hover {
+    transform: translateY(-0.8rem);
+}
+
+.box-item2 img {
+    width:30rem;
+    border-radius: 2rem;
 }
 .box-item .top2 {
     background: hsla(261, 52%, 56%, 1);
@@ -187,7 +195,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#565656", en
 .t1{
     color: white;
     text-align: center;
-    mg1re  
+    margin: 1rem;
 }
 .box-item {
     margin: 2rem;
@@ -207,7 +215,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#565656", en
     width: clamp(3vw + 20%, 1vw + 25%, 40%);
 }
 
-.box-item .top {
+.box-item2 .top {
     background: var(--orange);
     padding: 2rem;
     border-radius: 2rem 2rem 0 0;
